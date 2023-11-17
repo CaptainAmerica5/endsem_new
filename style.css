@@ -1,0 +1,35 @@
+body {
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+/* Vertical responsiveness for smaller screens */
+@media (max-height: 600px) {
+    body {
+        padding: 30px;
+    }
+
+    .container {
+        max-width: 400px;
+        padding: 30px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+}
+
+/* Additional media queries for different screen heights if needed */
+/* @media (max-height: ...) {
+    Custom styles for a specific height range
+} */
